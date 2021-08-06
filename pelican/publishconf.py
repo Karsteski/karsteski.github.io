@@ -9,7 +9,7 @@ except ImportError:
     sys.path.append(os.path.join(os.curdir, "docs"))
     from pelicanconf import *
 
-SITEURL = "https://flex.alxd.me/"
+SITEURL = "https://karsteski.com"
 
 RELATIVE_URLS = False
 
