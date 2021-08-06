@@ -1,7 +1,7 @@
 from datetime import datetime
 
 AUTHOR = "Kareem Skinner"
-SITEURL = "http://localhost:8000"
+SITEURL = "https://karsteski.com"
 SITENAME = "Karsteski Website"
 SITETITLE = "A KaStSk Website"
 SITESUBTITLE = "Test for website"
