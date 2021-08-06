@@ -15,7 +15,7 @@ ROBOTS = "index, follow"
 
 THEME = "./Flex"
 PATH = "content"
-OUTPUT_PATH = "output"
+OUTPUT_PATH = ".."
 TIMEZONE = "Canada/Eastern"
 
 DISABLE_URL_HASH = True
