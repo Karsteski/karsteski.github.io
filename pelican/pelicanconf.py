@@ -1,11 +1,11 @@
 from datetime import datetime
 
-AUTHOR = "Alexandre Vicenzi"
+AUTHOR = "Kareem Skinner"
 SITEURL = "http://localhost:8000"
-SITENAME = "Flex"
-SITETITLE = "Flex"
-SITESUBTITLE = "The minimalist Pelican theme"
-SITEDESCRIPTION = "Flex - The minimalist Pelican theme."
+SITENAME = "Karsteski Website"
+SITETITLE = "A KaStSk Website"
+SITESUBTITLE = "Test for website"
+SITEDESCRIPTION = "website test"
 # SITELOGO = ''
 # FAVICON = '/images/favicon.ico'
 BROWSER_COLOR = "#333333"
@@ -13,10 +13,12 @@ PYGMENTS_STYLE = "monokai"
 
 ROBOTS = "index, follow"
 
-THEME = "/home/karsteski/Repos/karsteski.github.io/pelican/Flex/"
+THEME = "./Flex"
 PATH = "content"
 OUTPUT_PATH = "output"
-TIMEZONE = "America/New_York"
+TIMEZONE = "Canada/Eastern"
+
+DISABLE_URL_HASH = True
 
 # PLUGIN_PATHS = ['pelican-plugins']
 
@@ -33,8 +35,8 @@ DATE_FORMATS = {
     "en": "%B %d, %Y",
 }
 
-FEED_ALL_ATOM = "feeds/all.atom.xml"
-CATEGORY_FEED_ATOM = "feeds/{slug}.atom.xml"
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
@@ -44,8 +46,7 @@ MAIN_MENU = True
 HOME_HIDE_TAGS = True
 
 SOCIAL = (
-    ("github", "https://github.com/alexandrevicenzi/Flex"),
-    ("rss", "/blog/feeds/all.atom.xml"),
+    ("github", "https://github.com/Karsteski"),
 )
 
 MENUITEMS = (
@@ -55,23 +56,22 @@ MENUITEMS = (
 )
 
 CC_LICENSE = {
-    "name": "Creative Commons Attribution-ShareAlike",
+    "name": "Creative Commons Attribution-ShareAlike 4.0 International License",
     "version": "4.0",
     "slug": "by-sa",
+    "icon": True,
+    "language": "en_US",
 }
+
+# STATIC_PATHS = []
+# EXTRA_PATH_META_DATA = {}
+
 
 COPYRIGHT_YEAR = datetime.now().year
 DEFAULT_PAGINATION = 10
 
-DISQUS_SITENAME = "flex-pelican"
-ADD_THIS_ID = "ra-55adbb025d4f7e55"
-
-STATIC_PATHS = ["images", "extra/ads.txt", "extra/CNAME"]
-
-EXTRA_PATH_METADATA = {
-    "extra/ads.txt": {"path": "ads.txt"},
-    "extra/CNAME": {"path": "CNAME"},
-}
+DISQUS_SITENAME = None
+ADD_THIS_ID = ""
 
 THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
 THEME_COLOR_ENABLE_USER_OVERRIDE = True
