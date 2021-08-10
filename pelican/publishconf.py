@@ -11,4 +11,7 @@ except ImportError:
 
 SITEURL = "https://www.karsteski.com"
 
+SITELOGO = SITEURL + "/images/profile-picture.jpg"
+FAVICON = SITEURL + "/images/favicon.ico"
+
 RELATIVE_URLS = False
