@@ -2,37 +2,29 @@ from datetime import datetime
 
 AUTHOR = "Kareem Skinner"
 SITEURL = "http://localhost:8000"
-SITENAME = "Karsteski Website"
-SITETITLE = "A KaStSk Website"
-SITESUBTITLE = "Test for website"
-SITEDESCRIPTION = "website test"
-# SITELOGO = ''
-# FAVICON = '/images/favicon.ico'
+SITENAME = "Karsteski.com"
+SITETITLE = "Kareem Skinner"
+SITESUBTITLE = "Programmer. B.Sc. Chemistry"
+SITEDESCRIPTION = "Kareem Skinner's personal website and blog :)"
+SITELOGO = SITEURL + "/images/profile-picture.jpg"
+FAVICON = SITEURL + "/images/favicon.ico"
 BROWSER_COLOR = "#333333"
 PYGMENTS_STYLE = "monokai"
 
-ROBOTS = "index, follow"
+# ROBOTS = "index, follow"
 
 THEME = "./Flex"
 PATH = "content"
-OUTPUT_PATH = ".."
+OUTPUT_PATH = "../"
 TIMEZONE = "Canada/Eastern"
 
 DISABLE_URL_HASH = True
 
-# PLUGIN_PATHS = ['pelican-plugins']
-
-# PLUGINS = ['i18n_subsites']
-
-# JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
-
-I18N_TEMPLATES_LANG = "en"
 DEFAULT_LANG = "en"
-OG_LOCALE = "en_US"
-LOCALE = "en_US"
+LOCALE = "en_CA"
 
 DATE_FORMATS = {
-    "en": "%B %d, %Y",
+    "en_CA": "%d %B, %Y",
 }
 
 FEED_ALL_ATOM = None
@@ -47,12 +39,13 @@ HOME_HIDE_TAGS = True
 
 SOCIAL = (
     ("github", "https://github.com/Karsteski"),
+    ("linkedin", "https://www.linkedin.com/in/kareemskinner/")
 )
 
 MENUITEMS = (
     ("Archives", "/archives.html"),
     ("Categories", "/categories.html"),
-    ("Tags", "/tags.html"),
+    ("Tags", "/tags.html")
 )
 
 CC_LICENSE = {
@@ -60,7 +53,7 @@ CC_LICENSE = {
     "version": "4.0",
     "slug": "by-sa",
     "icon": True,
-    "language": "en_US",
+    "language": "en_CA",
 }
 
 # STATIC_PATHS = []
@@ -72,8 +65,9 @@ DEFAULT_PAGINATION = 10
 
 DISQUS_SITENAME = None
 ADD_THIS_ID = ""
-
+THEME_COLOR = 'dark'
 THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
 THEME_COLOR_ENABLE_USER_OVERRIDE = True
 
-USE_LESS = True
+# For testing purposes. Uses .less instead .css
+USE_LESS = False

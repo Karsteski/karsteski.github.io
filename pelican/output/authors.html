@@ -6,32 +6,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="HandheldFriendly" content="True" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="" />
 
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet/less" type="text/css" href="https://karsteski.com/theme/stylesheet/style.less">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/stylesheet/style.min.css">
 
     <link id="dark-theme-style" rel="stylesheet" type="text/css"
-          media="(prefers-color-scheme: dark)"
-    href="https://karsteski.com/theme/stylesheet/dark-theme.min.css">
+          media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)"
+    href="http://localhost:8000/theme/stylesheet/dark-theme.min.css">
 
     <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
-              media="(prefers-color-scheme: dark)"
-          href="https://karsteski.com/theme/pygments/monokai.min.css">
+              media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)"
+          href="http://localhost:8000/theme/pygments/monokai.min.css">
     <link id="pygments-light-theme" rel="stylesheet" type="text/css"
-              media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-          href="https://karsteski.com/theme/pygments/monokai.min.css">
+              media="(prefers-color-scheme: light)"
+          href="http://localhost:8000/theme/pygments/monokai.min.css">
 
 
-  <link rel="stylesheet" type="text/css" href="https://karsteski.com/theme/font-awesome/css/fontawesome.css">
-  <link rel="stylesheet" type="text/css" href="https://karsteski.com/theme/font-awesome/css/brands.css">
-  <link rel="stylesheet" type="text/css" href="https://karsteski.com/theme/font-awesome/css/solid.css">
+  <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/font-awesome/css/solid.css">
 
 
 
 
+    <link rel="shortcut icon" href="http://localhost:8000/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="http://localhost:8000/images/favicon.ico" type="image/x-icon">
 
   
 
@@ -48,29 +49,30 @@
  
 
     <meta name="author" content="Kareem Skinner" />
-    <meta name="description" content="website test" />
-  <meta property="og:site_name" content="Karsteski Website"/>
+    <meta name="description" content="Kareem Skinner's personal website and blog :)" />
+  <meta property="og:site_name" content="Karsteski.com"/>
   <meta property="og:type" content="blog"/>
-  <meta property="og:title" content="Karsteski Website"/>
-  <meta property="og:description" content="website test"/>
+  <meta property="og:title" content="Karsteski.com"/>
+  <meta property="og:description" content="Kareem Skinner's personal website and blog :)"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:url" content="https://karsteski.com"/>
+  <meta property="og:url" content="http://localhost:8000"/>
+  <meta property="og:image" content="http://localhost:8000/images/profile-picture.jpg">
 
-  <title>Karsteski Website &ndash; Authors</title>
+  <title>Karsteski.com &ndash; Authors</title>
 
 </head>
 <body >
   <aside>
     <div>
-      <a href="https://karsteski.com/">
-        <img src="https://karsteski.com/theme/img/profile.png" alt="A KaStSk Website" title="A KaStSk Website">
+      <a href="http://localhost:8000/">
+        <img src="http://localhost:8000/images/profile-picture.jpg" alt="Kareem Skinner" title="Kareem Skinner">
       </a>
 
       <h1>
-        <a href="https://karsteski.com/">A KaStSk Website</a>
+        <a href="http://localhost:8000/">Kareem Skinner</a>
       </h1>
 
-<p>Test for website</p>
+<p>Programmer. B.Sc. Chemistry</p>
 
       <nav>
         <ul class="list">
@@ -78,14 +80,20 @@
 
               <li>
                 <a target="_self"
-                   href="https://karsteski.com/pages/about.html">
+                   href="http://localhost:8000/pages/about.html">
                   About
                 </a>
               </li>
               <li>
                 <a target="_self"
-                   href="https://karsteski.com/pages/contact.html">
+                   href="http://localhost:8000/pages/contact.html">
                   Contact
+                </a>
+              </li>
+              <li>
+                <a target="_self"
+                   href="http://localhost:8000/pages/projects.html">
+                  Projects
                 </a>
               </li>
 
@@ -98,6 +106,11 @@
               <i class="fab fa-github"></i>
             </a>
           </li>
+          <li>
+            <a  class="sc-linkedin" href="https://www.linkedin.com/in/kareemskinner/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
       </ul>
     </div>
 
@@ -105,7 +118,7 @@
   <main>
 
     <nav>
-      <a href="https://karsteski.com/">Home</a>
+      <a href="http://localhost:8000/">Home</a>
 
       <a href="/archives.html">Archives</a>
       <a href="/categories.html">Categories</a>
@@ -120,23 +133,23 @@
   </header>
   <div>
     <ul class="list">
-      <li><a href="https://karsteski.com/author/kareem-skinner.html">Kareem Skinner</a> (1)</li>
+      <li><a href="http://localhost:8000/author/kareem-skinner.html">Kareem Skinner</a> (1)</li>
     </ul>
   </div>
 </article>
 
     <footer>
 <p>
-  &copy; 2021  - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+  &copy; 2021  - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_CA" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>
 </p>
 <p>
 Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
   <span class="footer-separator">|</span>
   Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
   <script id="dark-theme-script"
-          src="https://karsteski.com/theme/dark-theme/dark-theme.min.js"
+          src="http://localhost:8000/theme/dark-theme/dark-theme.min.js"
           data-enable-auto-detect-theme="True"
-          data-default-theme="light"
+          data-default-theme="dark"
           type="text/javascript">
   </script>
 </p><p>
@@ -160,10 +173,10 @@ Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a 
 {
   "@context" : "http://schema.org",
   "@type" : "Blog",
-  "name": " Karsteski Website ",
-  "url" : "https://karsteski.com",
-  "image": "",
-  "description": "website test"
+  "name": " Karsteski.com ",
+  "url" : "http://localhost:8000",
+  "image": "http://localhost:8000/images/profile-picture.jpg",
+  "description": "Kareem Skinner's personal website and blog :)"
 }
 </script>
 
