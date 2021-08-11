@@ -11,6 +11,8 @@ FAVICON = SITEURL + "/images/favicon.ico"
 BROWSER_COLOR = "#333333"
 PYGMENTS_STYLE = "monokai"
 
+STATIC_PATHS = ['images/about']
+
 # ROBOTS = "index, follow"
 
 THEME = "./Flex"
@@ -56,7 +58,6 @@ CC_LICENSE = {
     "language": "en_CA",
 }
 
-# STATIC_PATHS = []
 # EXTRA_PATH_META_DATA = {}
 
 
