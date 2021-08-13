@@ -1,4 +1,4 @@
-Title: CONTACT
+Title: Contact
 Date: 13-08-2021
 Modified: 13-08-2021
 Slug: contact

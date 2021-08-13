@@ -82,20 +82,26 @@
 
               <li>
                 <a target="_self"
-                   href="https://www.karsteski.com/">
-                  ABOUT
+                   href="https://www.karsteski.com/pages/about.html">
+                  About
                 </a>
               </li>
               <li>
                 <a target="_self"
                    href="https://www.karsteski.com/pages/contact.html">
-                  CONTACT
+                  Contact
                 </a>
               </li>
               <li>
                 <a target="_self"
                    href="https://www.karsteski.com/pages/projects.html">
                   Projects
+                </a>
+              </li>
+              <li>
+                <a target="_self"
+                   href="https://www.karsteski.com/pages/resume.html">
+                  Resume
                 </a>
               </li>
 
@@ -135,7 +141,43 @@
     <h1 id="projects">Projects</h1>
   </header>
   <div>
-<p>[WIP]</p>  </div>
+<h3><a href="https://github.com/Karsteski/Oglre"><strong>Oglre: OpenGL Rendering Engine [WIP]</strong></a></h3>
+<p>This is my current project, a rendering engine utilizing the OpenGL API, written in C++.
+Current features – Shader System, Camera System, rendering for 2D and 3D primitives, batch rendering.</p>
+<p><strong><em>Images coming soon!</em></strong></p>
+<hr>
+<h3><a href="https://github.com/Karsteski/Cutercon"><strong>Cutercon: Minecraft Remote Console</strong></a></h3>
+<p><a href="https://wiki.vg/RCON">RCON</a> is a TCP/IP-based protocol that allows server administrators to remotely execute Minecraft commands.</p>
+<p>I wrote this program to help with my Minecraft server administration. It's very convenient to be able to send commands remotely to my Ubuntu server, and I added a simple GUI using PyQt6!</p>
+<p><img alt="Cutercon" src="{projects.md}/../../images/projects/cutercon/cutercon-gui.png"></p>
+<hr>
+<h3><a href="https://github.com/Karsteski/Glautomata"><strong>Glautomata - Conway's Game of Life</strong></a></h3>
+<p>John Conway's Game of Life displayed using batch rendering in OpenGL.</p>
+<ul>
+<li>The Game of Life is an infinite, two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead.</li>
+<li>Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent.</li>
+<li>At each step in time, the following transitions occur:</li>
+<li>Any live cell with fewer than two live neighbours dies, as if by underpopulation</li>
+<li>Any live cell with two or three live neighbours lives on to the next generation</li>
+<li>Any live cell with more than three live neighbours dies, as if by overpopulation</li>
+<li>Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction</li>
+<li>This creates complex patterns from very simple rules.</li>
+</ul>
+<p>I decided on a whim one day to apply my OpenGL learning to one of my favourite things to code, the game of life! It runs a lot better than my first implementation of it, which just used the <a href="https://github.com/ocornut/imgui">Dear ImGUI library</a> to leverage a rendering API <em>(OpenGL in this case as well)</em> to draw to the screen. However, batch rendering, i.e. sending all the vertex data simultaneously per draw call proved to be a far more efficient method.</p>
+<p>I'm quite proud of the code, despite it being a small project, as its pretty clean in my opinion.</p>
+<p><strong>Demonstration GIF:</strong></p>
+<p><img alt="Cutercon" src="{projects.md}/../../images/projects/glautomata/glautomata-video.gif"></p>
+<hr>
+<h3><a href="https://github.com/Karsteski/The_Cellular_Automata"><strong>Cellular Automata Generator</strong></a></h3>
+<p>This is a generator for Elementary Cellular Automata and John Conway's Game of Life. Inspired by Stephen Wolfram's 2002 book: A New Kind of Science.</p>
+<p>The cellular automata generator took me quite a while to get right. It was my first time trying to do something a bit complicated in C++, but I learnt quite a lot, and my second time around (<em>See Glautomata above</em>) had the code be much cleaner and maintainable.</p>
+<ul>
+<li>Elementary Cellular Automata are the simplest class of one-dimensional cellular atomata.</li>
+<li>Each cell in a grid has two possible values (0 or 1) and rules that depend on their previous three nearest neighbours.</li>
+<li>In this program, different automata can be generated simply by changing an 8-bit binary number that represents the rules for what each cell's state should be given it's neighbours.</li>
+<li>More details at <a href="https://mathworld.wolfram.com/ElementaryCellularAutomaton.html">Wolfram Mathworld</a>.</li>
+</ul>
+<p><img alt="**Elementary Cellular Automata: Rule 90**" src="{projects.md}/../../images/projects/the-cellular-automata/elementary-automata.png"></p>  </div>
 </article>
 
     <footer>
