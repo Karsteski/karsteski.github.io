@@ -1,9 +1,11 @@
 Title: ABOUT
-Date: 2021-08-10
-Modified: 2021-08-13
+Date: 10-08-2021
+Modified: 13-08-2021
 Slug: about
 Author: Kareem Skinner
 Summary: "About Me" page for Karsteski.com
+URL:
+save_as: index.html
 
 Hey funny seeing you here. I'm Kareem and welcome to my personal website. I felt like having a website so here we are.
 

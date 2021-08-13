@@ -11,7 +11,7 @@ FAVICON = SITEURL + "/images/favicon.ico"
 BROWSER_COLOR = "#333333"
 PYGMENTS_STYLE = "monokai"
 
-STATIC_PATHS = ['images/about', 'images']
+STATIC_PATHS = ['images/about', 'images', 'images/contact']
 
 # ROBOTS = "index, follow"
 
