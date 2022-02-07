@@ -1,0 +1,15 @@
+.red-background {
+    background-color: #C8012E; 
+}
+
+.dark-background {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.light-background {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+

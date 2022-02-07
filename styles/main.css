@@ -12,7 +12,6 @@ section:target {
 header {
     display:inline-block;
     width:100%;
-    /* border:1px solid red; */
 }
 
 .left-nav{
@@ -23,3 +22,9 @@ float:left;
 float:right;
 }
 /* -------------------------------------- */
+
+/* Remove default styling of body by browsers */
+body {
+    margin: 0;
+    text-align: center;
+}
