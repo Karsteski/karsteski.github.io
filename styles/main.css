@@ -1,0 +1,9 @@
+/* For implementing multi-pages in a single page */
+section {
+    display: none;
+}
+
+section:target {
+    display: block;
+}
+/* -------------------------------------- */
