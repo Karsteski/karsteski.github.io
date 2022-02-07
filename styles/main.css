@@ -1,9 +1,25 @@
 /* For implementing multi-pages in a single page */
 section {
-    display: none;
+  display: none;
 }
 
 section:target {
-    display: block;
+  display: block;
+}
+/* -------------------------------------- */
+
+/* Header styling */
+header {
+    display:inline-block;
+    width:100%;
+    /* border:1px solid red; */
+}
+
+.left-nav{
+float:left;
+}
+
+.right-nav{
+float:right;
 }
 /* -------------------------------------- */
