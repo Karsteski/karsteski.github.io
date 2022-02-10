@@ -10,21 +10,21 @@ section:target {
 
 /* Header styling */
 header {
-    display:inline-block;
-    width:100%;
+  display: inline-block;
+  width: 100%;
 }
 
-.left-nav{
-float:left;
+.left-nav {
+  float: left;
 }
 
-.right-nav{
-float:right;
+.right-nav {
+  float: right;
 }
 /* -------------------------------------- */
 
 /* Remove default styling of body by browsers */
 body {
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  text-align: center;
 }

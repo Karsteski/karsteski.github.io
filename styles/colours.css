@@ -1,15 +1,24 @@
 .red-background {
-    background-color: #C8012E; 
+  background-color: #c8012e;
 }
 
 .dark-background {
-    background-color: #000000;
-    color: #FFFFFF;
+  background-color: #141414;
 }
 
 .light-background {
-    background-color: #FFFFFF;
-    color: #000000;
+  background-color: #ffffff;
+  color: #000000;
 }
 
+.body-text-colour {
+  color: #dadada;
+}
 
+.highlight-text-colour {
+  color: #ffc400;
+}
+
+a {
+  color: #ffc400;
+}
