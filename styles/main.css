@@ -5,13 +5,13 @@
     box-sizing: border-box;
     /* text-align: center; */
 
+    /* Color scheme */
+    /* These need to be here for the multiple page in a single page effect */
 
-  /* Color scheme */
-  
-  background-color: #141414;
-  --textcolor: #121212;
-  --bgcolor: #141414;
-  --highlight: #2749c9;
+    background-color: #141414;
+    --textcolor: #121212;
+    --bgcolor: #141414;
+    --highlight: #2749c9;
 
 }
 
@@ -21,12 +21,11 @@ body {
     line-height: 1.4;
     color: var(--textcolor);
     background: var(--bgcolor);
-    position: relative;
-    max-width: 64em; /* remove this for a full-width layout */
-    margin: 0 auto; /* centers the layout */
+    /* max-width: 64em; */
+    /* remove this for a full-width layout */
+    margin: 0 auto;
+    /* centers the layout */
 }
-
-
 
 /* For implementing multi-pages in a single page */
 section {
@@ -40,7 +39,7 @@ section {
     background: var(--bgcolor);
 }
 
-section:target{
+section:target {
     display: block;
 }
 
@@ -74,4 +73,5 @@ header h1 {
 .right-nav {
     /* float: right; */
 }
+
 /* -------------------------------------- */

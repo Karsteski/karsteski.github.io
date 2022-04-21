@@ -16,7 +16,8 @@
 }
 
 .highlight-text-colour {
-  color: #ffc400;
+  /* color: #ffc400; */
+  color: aqua
 }
 
 a {
