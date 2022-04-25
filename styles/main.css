@@ -8,7 +8,6 @@
     /* Color scheme */
     /* These need to be here for the multiple page in a single page effect */
 
-    background-color: #141414;
     --textcolor: #121212;
     --bgcolor: #141414;
     --highlight: #2749c9;
@@ -56,14 +55,18 @@ header {
     display: flex;
     flex-wrap: wrap;
     position: absolute;
+    /* justify-content: space-between; */
     width: 100%;
     z-index: 2;
+
 }
 
 header h1 {
     /* Pushes nav to the right */
     flex: 1;
     white-space: nowrap;
+    font-size: 1em;
+    /* padding: 0 5vw 0.5em 0; */
 }
 
 .left-nav {
@@ -72,6 +75,7 @@ header h1 {
 
 .right-nav {
     /* float: right; */
+    margin-left: auto;
 }
 
 /* -------------------------------------- */
