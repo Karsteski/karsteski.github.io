@@ -1,3 +1,5 @@
+@import "colours.css";
+
 /* Remove default styling of body by browsers */
 * {
     margin: 0;
@@ -59,6 +61,7 @@ header {
     width: 100%;
     z-index: 2;
 
+    box-shadow: inset 0px 0px 5px 3px rgba(255, 196, 0, 0.62);
 }
 
 header h1 {
