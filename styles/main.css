@@ -26,6 +26,7 @@ body {
     /* remove this for a full-width layout */
     margin: 0 auto;
     /* centers the layout */
+
 }
 
 /* For implementing multi-pages in a single page */
@@ -82,5 +83,3 @@ header h1 {
 .right-nav {
     margin-left: auto;
 }
-
-/* -------------------------------------- */
