@@ -1,6 +1,6 @@
 Title: About
 Date: 10-08-2021
-Modified: 13-08-2021
+Modified: 24-07-2022
 Slug: about
 Author: Kareem Skinner
 Summary: "About Me" page for Karsteski.com
@@ -11,24 +11,20 @@ I'm a Trinidadian who moved to Ontario, Canada for university in 2014, and now I
 
 Turns out, most chemistry jobs aren't so much creating, but just testing products, pharmaceuticals, what have you. Which is what I'm currently doing now (QC Chemistry). Thankfully in 2018 one of my friends introduced me to Arduino microcontrollers, which is where I properly got interested in programming. I started off with C++ because I wanted to learn more about the "Arduino language", and later started learning Python and some SQL.
 
-I'm now searching for my first developer job! It's definitely an uphill battle but I'm confident I will make it, it's only a matter of time now.
+Now I work at [Christie Digital](https://www.christiedigital.com/) with <u>wicked smart</u><sup>TM</sup> people and very much enjoying life!
 
 Anyways, when I'm not destroying my eyes staring at text, I really enjoy gaming, hiking, camping, weightlifting and reading. I'd also like to get back into Jiu Jitsu at some point as well (I was a complete newb, ngl).
 
-So I set up this website mainly to motivate me to start writing blog posts. I've realized I'd like to get better at putting my thoughts into concrete words, and what better way to force myself to do it. My up-to-date resume and other sections of information will also be on here, so feel free to look around. Enjoy :)
+So I set up this website mainly to motivate me to start writing blog posts. I've realized I'd like to get better at putting my thoughts into concrete words, and what better way to force myself to do it?
 
 ### **TECHNOLOGIES**
 
-Languages: **C++, Python, SQL**
-
-Tools: **Git CLI, OpenGL, SQLite, Catch2 Test Framework**
-
-OS: **Linux (Pop_OS!, Ubuntu Server), Windows 10**
+Languages: **C++, Python, Java, SQL**
 
 ### **INTERESTS**
 
-Current Games: Apex Legends, Minecraft, Civilization VI, Runescape
+Current Games: No Man's Sky, League of Legends, Minecraft, Civilization VI
 
-Outdoor Activities: Hiking, Camping, Backpacking, Running
+Outdoor Activities: Geocaching, Hiking, Camping, Backpacking, Running
 
 Favourite Book Genres: Sci-Fi, Dystopian, Programming, Economics
