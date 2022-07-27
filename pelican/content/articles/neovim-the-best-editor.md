@@ -4,7 +4,7 @@ Modified: 21-09-2021
 Category: dev 
 Tags: programming, editors
 Slug: neovim-the-best-editor
-
+        
 As a relatively newb programmer, I've heard of Vim here and there. Coming from Visual Studio and Visual Studio code however, while it always sounded cool to do everything with a keyboard, it sounded extremely intimidating as a tool for programming. Vim literally dates back to the early 90s, before I was even a thought in my parent's minds!
 
 I came across Neovim in this [Hacker News thread](https://news.ycombinator.com/item?id=27713358) a few weeks ago, and I finally decided that I should try out Vim. Neovim is a far more welcoming, modern implementation of Vim. I've never really used plain Vim, but from everything I read about its relatively new brother, it was worth the try.
