@@ -1,14 +1,12 @@
 Title: Projects
-Date: 2021-08-13
-Modified: 2021-08-13
+Date: 13-08-2021
+Modified: 24-02-2025
 Slug: projects
 Author: Kareem Skinner
 Summary: Projects page for Karsteski.com
 
-### [**Oglre: OpenGL Rendering Engine [WIP]**](https://github.com/Karsteski/Oglre)
-
-This is my current project, a rendering engine utilizing the OpenGL API, written in C++.
-Current features – Shader System, Camera System, rendering for 2D and 3D primitives, batch rendering.
+### [**Solaran: An Intense 5v5 MOBA Game [WIP]**](https://github.com/Karsteski/karsteski.github.io)
+This is my current project, a game using the Godot Engine. It's in the early stages right now :)
 
 ***Images coming soon!***
 

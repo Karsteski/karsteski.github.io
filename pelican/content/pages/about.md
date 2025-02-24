@@ -16,6 +16,7 @@ So I set up this website mainly to motivate me to start writing blog posts. I've
 ### **TECH STUFF**
 
 Current Interests: Game Dev, 3D Modelling, Math relevant to game dev lol (Mainly Linear Algebra and Trigonometry)
+
 Most Used Languages: **C++, GDScript, Lua, Python**
 
 ### **INTERESTS**
