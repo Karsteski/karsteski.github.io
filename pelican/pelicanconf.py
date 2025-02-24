@@ -8,12 +8,10 @@ SITESUBTITLE = "Programmer. B.Sc. Chemistry"
 SITEDESCRIPTION = "Kareem Skinner's personal website and blog :)"
 SITELOGO = SITEURL + "/images/profile-picture.jpg"
 FAVICON = SITEURL + "/images/favicon.ico"
-BROWSER_COLOR = "#333333"
 PYGMENTS_STYLE = "monokai"
 
-STATIC_PATHS = ['images/about', 'images', 'images/contact', 'images/resume']
-
-# ROBOTS = "index, follow"
+BROWSER_COLOR = "#333333"
+STATIC_PATHS = ['images/about', 'images', 'images/contact']
 
 THEME = "./Flex"
 PATH = "content"
@@ -41,7 +39,7 @@ HOME_HIDE_TAGS = True
 
 SOCIAL = (
     ("github", "https://github.com/Karsteski"),
-    ("linkedin", "https://www.linkedin.com/in/kareemskinner/")
+    ("discord", "https://discord.com/users/karsteski"),
 )
 
 MENUITEMS = (
@@ -57,9 +55,6 @@ CC_LICENSE = {
     "icon": True,
     "language": "en_CA",
 }
-
-# EXTRA_PATH_META_DATA = {}
-
 
 COPYRIGHT_YEAR = datetime.now().year
 DEFAULT_PAGINATION = 10
