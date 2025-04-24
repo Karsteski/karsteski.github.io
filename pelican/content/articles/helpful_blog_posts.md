@@ -10,3 +10,5 @@ I've found that I often want to refer back to blog posts, but it's sometimes har
 ### *2025*
 
 - [Rediscovering Quaternions](https://web.archive.org/web/20250318162552/https://jasonfantl.com/posts/Space-of-3D-Rotations/): Useful for understanding why one may want to use Quaternions over Euler Angles for representing 3D rotations.
+
+- [How a 20 year old bug in GTA San Andreas surfaced in Windows 11 24H2](https://web.archive.org/web/20250423135047/https://cookieplmonster.github.io/2025/04/23/gta-san-andreas-win11-24h2-bug/): In-depth explanation of a 20 year old bug, demonstrating why validating inputs and not ignoring compiler warnings is so important.
